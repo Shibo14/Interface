@@ -5,7 +5,7 @@ interface PersonInterface {
     fun eat()
     fun walk()
     //sleep
-    fun sleep()
+    fun sleep()  // add fun
 }
 
 open class Person(val name: String) : PersonInterface {
