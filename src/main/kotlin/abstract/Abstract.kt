@@ -5,6 +5,7 @@ interface PersonInterface {
     fun eat()
     fun walk()
     //sleep
+    fun sleep()
 }
 
 open class Person(val name: String) : PersonInterface {
@@ -20,6 +21,10 @@ open class Person(val name: String) : PersonInterface {
     override fun walk() {
         println("$name walk")
 
+    }
+
+    override fun sleep() {
+        println("$name sleep")
     }
 
 }
